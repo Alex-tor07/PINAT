@@ -1,0 +1,18 @@
+version: "3.9"
+
+
+services:
+  router:
+    image: routcort
+    container_name: routcort
+    privileged: true
+    command: sleep infinity
+    volumes:
+      - ./datos:/datos
+      - ./datos/isc-dhcp-server:/etc/default/isc-dhcp-server
+      - ./datos/dhcpd.conf:/etc/dhcp/dhcpd.conf
+    sysctls:
+      net.ipv4.ip_forward: "1"
+    cap_add:
+      - NET_ADMIN
+

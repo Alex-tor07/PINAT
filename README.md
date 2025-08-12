@@ -44,6 +44,7 @@ SISTEMA DE GESTIÓN DE VLANs CON DOCKER
 │   │   └── 📜 delete-interface.sh ▫️ Eliminador de interfaces
 │   │
 │   └── 📜 run_api.sh              ▶️ Punto de entrada principal
+|   └── 📜 doc.pdf                 📦 Documentación
 
 📌 REQUISITOS:
   - Docker 🐳

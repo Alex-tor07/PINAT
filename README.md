@@ -1,11 +1,14 @@
-██████╗ ██╗███╗   ██╗ █████╗ ████████╗
-██╔══██╗██║████╗  ██║██╔══██╗╚══██╔══╝
-██████╔╝██║██╔██╗ ██║███████║   ██║   
-██╔═══╝ ██║██║╚██╗██║██╔══██║   ██║   
-██║     ██║██║ ╚████║██║  ██║   ██║   
-╚═╝     ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝   ╚═╝   
+# 🚀 PINAT: Sistema Avanzado de Gestión de VLANs en Docker
 
-SISTEMA DE GESTIÓN DE VLANs CON DOCKER
+**Solución integral para segmentación de redes con Docker, iptables y DHCP**  
+✨ Perfecto para laboratorios de redes, entornos educativos y pruebas de seguridad avanzadas
+
+## 🌟 Características Principales
+- ✅ Creación y gestión automatizada de VLANs
+- ✅ Cortafuegos con iptables para segmentación segura
+- ✅ Servidor DHCP integrado para asignación dinámica de IPs
+- ✅ Interfaz gráfica en Python para administración sencilla
+- ✅ Compatibilidad con redes físicas y virtuales
 
 📁 PINAT/
 ├── 📁 api/
